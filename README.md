@@ -5,7 +5,7 @@
 # 🗓️ Awesome Online Appointment Scheduling
 
 <p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Aweoome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Online-Appointment-Scheduling"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Appointment-Scheduling?style=social" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Online-Appointment-Scheduling/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Online-Appointment-Scheduling?style=social" alt="GitHub Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Online-Appointment-Scheduling/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Online-Appointment-Scheduling" alt="GitHub Issues"/></a> <a href="https://github.com/ishandutta2007/Awesome-Online-Appointment-Scheduling/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Aweoome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Online-Appointment-Scheduling"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Appointment-Scheduling?style=social" alt="GitHub_Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Online-Appointment-Scheduling/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Online-Appointment-Scheduling?style=social" alt="GitHub Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Online-Appointment-Scheduling/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Online-Appointment-Scheduling" alt="GitHub Issues"/></a> <a href="https://github.com/ishandutta2007/Awesome-Online-Appointment-Scheduling/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 📌 **A curated list of top Online Appointment Scheduling and Calendar Booking software** — featuring SaaS/hosted commercial platforms and self-hosted open-source alternatives for client self-service booking, calendar synchronization, automated reminders, and workflow automation.
@@ -51,75 +51,75 @@ Commercial, cloud-hosted Online Appointment Scheduling solutions. The table belo
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven appointment scheduling software and calendar coordination tools. Sorted in descending order by GitHub Star count.
+Self-hosted, community-driven appointment scheduling software and calendar coordination tools. Sorted in descending order by GitHub Stars_Count.
 
-### 1. [Cal.com](https://github.com/calcom/cal.com) [![GitHub stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)
+### 1. [Cal.com](https://github.com/calcom/cal.com) [![GitHub_Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)
 * **🛠️ Stack:** TypeScript / Next.js / PostgreSQL / Prisma / Tailwind CSS | **⚖️ License:** AGPLv3 (Open-core)
 * **📖 Overview:** Cal.com is the leading open-source scheduling infrastructure and primary open alternative to Calendly. It provides complete booking management, team scheduling (round-robin and collective), customizable booking questions, custom availability schedules, and extensive app integrations (Google Calendar, Outlook, Zoom, Stripe, CalDAV).
 * **🚀 Self-Hosting:** Official Docker Compose configurations with PostgreSQL and Traefik support; also available as an embeddable React/Web Component library.
 * **🎯 Best For:** Teams and developers seeking a modern, enterprise-ready scheduling engine with workflow automation and full data control.
 
-### 2. [Rallly](https://github.com/lukevella/rallly) [![GitHub stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)
+### 2. [Rallly](https://github.com/lukevella/rallly) [![GitHub_Stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)
 * **🛠️ Stack:** TypeScript / Next.js / tRPC / Prisma / PostgreSQL | **⚖️ License:** AGPL-3.0
 * **📖 Overview:** Rallly is a privacy-first, open-source meeting poll and group scheduling platform built as a direct alternative to Doodle. Rather than 1-on-1 self-booking links, it empowers teams and groups to vote on mutually compatible dates and time slots without forcing respondents to create accounts.
 * **🚀 Self-Hosting:** Deploys via Docker and Docker Compose; supports custom branding, SSO authentication (OIDC, Microsoft Entra, Google), and exportable ICS calendar invites.
 * **🎯 Best For:** Finding common meeting times across distributed groups, board members, and external stakeholders without sign-up friction.
 
-### 3. [Easy!Appointments](https://github.com/alextselegidis/easyappointments) [![GitHub stars](https://img.shields.io/github/stars/alextselegidis/easyappointments?style=social&color=white)](https://github.com/alextselegidis/easyappointments/stargazers)
+### 3. [Easy!Appointments](https://github.com/alextselegidis/easyappointments) [![GitHub_Stars](https://img.shields.io/github/stars/alextselegidis/easyappointments?style=social&color=white)](https://github.com/alextselegidis/easyappointments/stargazers)
 * **🛠️ Stack:** PHP / MySQL / jQuery / Bootstrap | **⚖️ License:** GPL-3.0
 * **📖 Overview:** In continuous development since 2014 with over 220,000 release downloads, Easy!Appointments is the benchmark self-hosted appointment scheduler for service businesses. It provides customer self-booking pages, multiple providers and services, custom working plans, Google Calendar two-way synchronization, and LDAP authentication.
 * **🚀 Self-Hosting:** Runs on standard LAMP/LEMP stacks, shared web hosts, or official Docker containers; includes CMS plugins for WordPress, Joomla, and Drupal.
 * **🎯 Best For:** Small-to-mid medical practices, salons, educational tutors, and non-profits wanting a mature, reliable multi-provider booking platform without recurring seat fees.
 
-### 4. [Someday](https://github.com/rbbydotdev/someday) [![GitHub stars](https://img.shields.io/github/stars/rbbydotdev/someday?style=social&color=white)](https://github.com/rbbydotdev/someday/stargazers)
+### 4. [Someday](https://github.com/rbbydotdev/someday) [![GitHub_Stars](https://img.shields.io/github/stars/rbbydotdev/someday?style=social&color=white)](https://github.com/rbbydotdev/someday/stargazers)
 * **🛠️ Stack:** TypeScript / React / Vite / Shadcn UI / Google Apps Script | **⚖️ License:** MIT
 * **📖 Overview:** Someday is a 100% free-to-host calendar availability picker and minimalist Calendly alternative tailored specifically for Google Workspace and Gmail users. It interfaces directly with Google Apps Script to read and block availability without requiring an external backend or database.
 * **🚀 Self-Hosting:** Zero hosting costs; deploys directly via Google Apps Script and static web hosting (Vercel/Netlify/GitHub Pages).
 * **🎯 Best For:** Solopreneurs and Google Workspace users seeking an ultra-lightweight, zero-cost booking picker without server maintenance.
 
-### 5. [Thunderbird Appointment](https://github.com/thunderbird/appointment) [![GitHub stars](https://img.shields.io/github/stars/thunderbird/appointment?style=social&color=white)](https://github.com/thunderbird/appointment/stargazers)
+### 5. [Thunderbird Appointment](https://github.com/thunderbird/appointment) [![GitHub_Stars](https://img.shields.io/github/stars/thunderbird/appointment?style=social&color=white)](https://github.com/thunderbird/appointment/stargazers)
 * **🛠️ Stack:** Python / Vue.js / CalDAV / Matrix | **⚖️ License:** MPL-2.0
 * **📖 Overview:** Created under the Mozilla/Thunderbird umbrella, Thunderbird Appointment is an open, standards-compliant appointment booking tool focused on privacy, user autonomy, and native CalDAV calendar integration.
 * **🚀 Self-Hosting:** Standard containerized deployment with integration into self-hosted CalDAV providers (Nextcloud, Radicale, Baïkal).
 * **🎯 Best For:** Privacy-focused individuals and organizations committed to open communication protocols and open-source email/calendar workflows.
 
-### 6. [Calrs](https://github.com/olivierlambert/calrs) [![GitHub stars](https://img.shields.io/github/stars/olivierlambert/calrs?style=social&color=white)](https://github.com/olivierlambert/calrs/stargazers)
+### 6. [Calrs](https://github.com/olivierlambert/calrs) [![GitHub_Stars](https://img.shields.io/github/stars/olivierlambert/calrs?style=social&color=white)](https://github.com/olivierlambert/calrs/stargazers)
 * **🛠️ Stack:** Rust / Axum / PostgreSQL / CalDAV | **⚖️ License:** AGPL-3.0
 * **📖 Overview:** Calrs is a blazingly fast, lightweight scheduling platform written in Rust. It delivers team scheduling with round-robin or collective meeting coordination, multi-timezone slot calculations, CalDAV integration, and OIDC/Keycloak authentication.
 * **🚀 Self-Hosting:** Extremely low memory footprint; single native binary or lean Docker container.
 * **🎯 Best For:** High-performance infrastructure environments, privacy advocates, and self-hosters prioritizing system resource efficiency and CalDAV compliance.
 
-### 7. [Tymeslot](https://github.com/Tymeslot/tymeslot) [![GitHub stars](https://img.shields.io/github/stars/Tymeslot/tymeslot?style=social&color=white)](https://github.com/Tymeslot/tymeslot/stargazers)
+### 7. [Tymeslot](https://github.com/Tymeslot/tymeslot) [![GitHub_Stars](https://img.shields.io/github/stars/Tymeslot/tymeslot?style=social&color=white)](https://github.com/Tymeslot/tymeslot/stargazers)
 * **🛠️ Stack:** Elixir / Phoenix LiveView / PostgreSQL | **⚖️ License:** AGPL-3.0
 * **📖 Overview:** Tymeslot is a modern, real-time Calendly alternative built with Elixir and Phoenix LiveView. It supports 2-way sync across Google Calendar, Outlook, iCloud, and any CalDAV instance (Nextcloud, Zimbra, Radicale), automatic meeting room generation (Google Meet, Teams, Zoom, Jitsi, Nextcloud Talk), and Stripe-powered booking payments.
 * **🚀 Self-Hosting:** Packaged as an all-in-one Docker image (bundled PostgreSQL option available) for fast, zero-fuss deployments.
 * **🎯 Best For:** Users seeking a reactive, real-time booking user experience with comprehensive CalDAV and video conference integration.
 
-### 8. [Django-Appointment](https://github.com/adamspd/django-appointment) [![GitHub stars](https://img.shields.io/github/stars/adamspd/django-appointment?style=social&color=white)](https://github.com/adamspd/django-appointment/stargazers)
+### 8. [Django-Appointment](https://github.com/adamspd/django-appointment) [![GitHub_Stars](https://img.shields.io/github/stars/adamspd/django-appointment?style=social&color=white)](https://github.com/adamspd/django-appointment/stargazers)
 * **🛠️ Stack:** Python / Django / SQLite / PostgreSQL | **⚖️ License:** MIT
 * **📖 Overview:** A plug-and-play Django application that equips any existing Python/Django web application with complete appointment scheduling capabilities. Supports custom staff schedules, slot duration settings, email alerts, and administrative override dashboards.
 * **🚀 Self-Hosting:** Installed via `pip install django-appointment` and added to `INSTALLED_APPS`.
 * **🎯 Best For:** Python/Django developers building portals, SaaS apps, or client dashboards who need an embedded booking engine without running a standalone server.
 
-### 9. [Calnode](https://github.com/Calnode/calnode) [![GitHub stars](https://img.shields.io/github/stars/Calnode/calnode?style=social&color=white)](https://github.com/Calnode/calnode/stargazers)
+### 9. [Calnode](https://github.com/Calnode/calnode) [![GitHub_Stars](https://img.shields.io/github/stars/Calnode/calnode?style=social&color=white)](https://github.com/Calnode/calnode/stargazers)
 * **🛠️ Stack:** Go / SQLite / Model Context Protocol (MCP) | **⚖️ License:** Apache-2.0
 * **📖 Overview:** Calnode is an API-first, single-binary scheduling engine built with Go and SQLite. Uniquely, it features a native Model Context Protocol (MCP) server baked directly into the binary, allowing autonomous AI agents to query availability and book appointments deterministically.
 * **🚀 Self-Hosting:** Zero external dependencies; single executable binary with SQLite database storage.
 * **🎯 Best For:** AI engineers and automators wanting an ultra-lightweight, scriptable scheduling engine callable by LLM agents.
 
-### 10. [OpenCalendar](https://github.com/kudretyilmazz/opencalendar) [![GitHub stars](https://img.shields.io/github/stars/kudretyilmazz/opencalendar?style=social&color=white)](https://github.com/kudretyilmazz/opencalendar/stargazers)
+### 10. [OpenCalendar](https://github.com/kudretyilmazz/opencalendar) [![GitHub_Stars](https://img.shields.io/github/stars/kudretyilmazz/opencalendar?style=social&color=white)](https://github.com/kudretyilmazz/opencalendar/stargazers)
 * **🛠️ Stack:** Next.js / TypeScript / PostgreSQL / Docker | **⚖️ License:** AGPL-3.0
 * **📖 Overview:** A modern open-core alternative to Cal.com and Calendly crafted with strict web accessibility (WCAG 2.2 AA). It includes multi-user team scheduling, routing forms, webhooks, and calendar synchronizations without gated paywalls.
 * **🚀 Self-Hosting:** Straightforward Docker configuration requiring only PostgreSQL (no Redis required).
 * **🎯 Best For:** Organizations seeking a clean open-source scheduling solution with full accessibility compliance and transparent licensing.
 
-### 11. [Tidetime](https://github.com/Sulaiman-Dauda/Tidetime) [![GitHub stars](https://img.shields.io/github/stars/Sulaiman-Dauda/Tidetime?style=social&color=white)](https://github.com/Sulaiman-Dauda/Tidetime/stargazers)
+### 11. [Tidetime](https://github.com/Sulaiman-Dauda/Tidetime) [![GitHub_Stars](https://img.shields.io/github/stars/Sulaiman-Dauda/Tidetime?style=social&color=white)](https://github.com/Sulaiman-Dauda/Tidetime/stargazers)
 * **🛠️ Stack:** Next.js 16 / React 19 / TypeScript / PostgreSQL / Drizzle ORM | **⚖️ License:** MIT
 * **📖 Overview:** An open-source scheduling system customized for a single company operating with multiple services and staff providers. Features least-busy auto-assignment, transaction-safe booking reservations, Google Calendar/Microsoft 365 sync, and automated Caddy HTTPS domains.
 * **🚀 Self-Hosting:** Containerized deployment with Docker and Caddy reverse proxy.
 * **🎯 Best For:** Small business service agencies, dental/medical offices, and consulting firms managing internal teams.
 
-### 12. [Just-Book-My-Cal](https://github.com/mxmehl/just-book-my-cal) [![GitHub stars](https://img.shields.io/github/stars/mxmehl/just-book-my-cal?style=social&color=white)](https://github.com/mxmehl/just-book-my-cal/stargazers)
+### 12. [Just-Book-My-Cal](https://github.com/mxmehl/just-book-my-cal) [![GitHub_Stars](https://img.shields.io/github/stars/mxmehl/just-book-my-cal?style=social&color=white)](https://github.com/mxmehl/just-book-my-cal/stargazers)
 * **🛠️ Stack:** Python / Flask / ICS / SQLite | **⚖️ License:** Apache-2.0
 * **📖 Overview:** A lightweight, self-hosted booking page that reads busy slots directly from any published `.ics` calendar URL. Does not require OAuth app approval or cloud calendar APIs; simply ingest your private calendar feed, compute open slots, and dispatch invitations.
 * **🚀 Self-Hosting:** Available on PyPI (`pip install justbookmycal`) and deployed with Gunicorn or systemd.
@@ -180,7 +180,7 @@ Contributions are welcome! If you know of an open-source Online Appointment Sche
 
 1. Fork this repository.
 2. Ensure the project is actively maintained (commits or releases within the last 12 months) and open source.
-3. Submit a pull request with the project name, GitHub repo URL, star count badge, tech stack, license, and brief description.
+3. Submit a pull request with the project name, GitHub repo URL, Stars_Count badge, tech stack, license, and brief description.
 
 ---
 
