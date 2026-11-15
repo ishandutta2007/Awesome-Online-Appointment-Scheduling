@@ -1,198 +1,161 @@
-# Awesome-Online-Appointment-Scheduling
+# Awesome Online Appointment Scheduling [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-# Awesome Online Appointment Scheduling
+> A curated list of top Online Appointment Scheduling and Calendar Booking software — featuring SaaS/hosted commercial platforms and self-hosted open-source alternatives for client self-service booking, calendar synchronization, automated reminders, and workflow automation.
 
-> A curated list of top Online Appointment Scheduling platforms — both SaaS/Hosted commercial solutions and open-source alternatives for letting customers self-book appointments, managing provider availability, and automating confirmations.
-> 🌟 Star this repo if you find it useful! 🌟
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global appointment scheduling software market is valued at approximately **$450 million to $550 million** and is projected to expand at a compound annual growth rate (CAGR) of **10% to 14%**, reaching over **$1.2 billion** within the decade. The sector is **moderately fragmented**: while powerhouse ecosystems and established brands (Square, Squarespace/Acuity, Calendly, Zoho) command high consumer awareness, low technical barriers to entry and hyper-specific vertical demands (healthcare clinics, salons, education, professional services) allow numerous niche SaaS players and self-hosted open-source solutions to thrive alongside major platforms.
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Calendly](#calendly)
-  - [Acuity Scheduling](#acuity-scheduling)
-  - [Zoho Bookings](#zoho-bookings)
-  - [YouCanBookMe](#youcanbookme)
-  - [SimplyBook.me](#simplybookme)
-  - [Square Appointments](#square-appointments)
 - [Open-Source Software](#-open-source-software)
-  - [Easy!Appointments](#easyappointments)
-  - [Cal.com](#calcom)
-  - [Tymeslot](#tymeslot)
-  - [Tidetime](#tidetime)
-  - [Rallly](#rallly)
-  - [Calnode](#calnode)
-  - [Calrs](#calrs)
-  - [justbookmycal](#justbookmycal)
+- [Feature Comparison Matrix](#-feature-comparison-matrix)
+- [Selection Guide](#-selection-guide)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Online Appointment Scheduling platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Online Appointment Scheduling solutions. The table below is sorted in descending order by company size (valuation / annual revenue).
 
-### Calendly
-**Type:** Meeting scheduling with self-service booking pages
-Calendly popularized the self-service booking page model, allowing others to book time based on your availability without back-and-forth emails. It is the primary commercial reference for open-source alternatives like Easy!Appointments, Cal.com, and Tymeslot.
-
-### Acuity Scheduling
-**Type:** Appointment scheduling with intake forms and payments
-Acuity (Squarespace) provides appointment scheduling with intake forms, payment processing, and automated reminders. It is positioned for service businesses (salons, tutors, consultants) wanting a polished, all-in-one booking experience.
-
-### Zoho Bookings
-**Type:** Appointment scheduling within Zoho ecosystem
-Zoho Bookings provides scheduling pages, calendar sync, and payment collection as part of the broader Zoho suite. It is the natural choice for organizations already using Zoho CRM or other Zoho products.
-
-### YouCanBookMe
-**Type:** Booking pages with team scheduling
-YouCanBookMe provides customizable booking pages with team scheduling, routing forms, and integrations with Google Calendar and Outlook. It is positioned for teams wanting flexible booking rules without a full platform.
-
-### SimplyBook.me
-**Type:** Appointment scheduling with plugins and marketplace
-SimplyBook.me provides scheduling with a plugin marketplace, payment processing, and client management. It is positioned for SMBs wanting extensive customization through add-ons.
-
-### Square Appointments
-**Type:** Scheduling integrated with Square payments
-Square Appointments provides scheduling, payment processing, and client management within the Square ecosystem. It is positioned for businesses already using Square for in-person payments.
+| Platform | Company Size (Valuation / Revenue) | Starting Pricing (Paid Tiers) | Free Tier / Trial Limits | Key Strengths & Focus |
+|:---|:---|:---|:---|:---|
+| **[Square Appointments](https://squareup.com/appointments)** | **$52B+ Market Cap** / ~$24.2B Revenue (Block, Inc.) | **$49/month** per location (Plus plan; 2.5% + 10¢ per in-person transaction) | **Free forever plan**: Unlimited staff calendars, basic booking website, automated SMS/email reminders; no advanced no-show protection/deposits; transaction fees apply (2.6% + 15¢ in-person) | Built into Square POS & payments ecosystem; ideal for salons, spas, and service retail businesses |
+| **[Zoho Bookings](https://www.zoho.com/bookings/)** | **~$12.5B Valuation** / ~$1.4B–$1.5B Revenue (Zoho Corp) | **$6/user/month** (billed annually) or $8/user/month (Basic plan) | **Free forever plan**: Strictly limited to 1 user, 1 workspace, 1 service/event type, and 1 calendar connection; includes automated email reminders but no online payment processing | Deep integration with Zoho CRM, Zoho Meeting, and broader Zoho business application ecosystem |
+| **[Acuity Scheduling](https://acuityscheduling.com/)** | **$7.2B Valuation** (Acquired by Squarespace / Permira) / ~$1B+ Revenue | **$16/month** (billed annually) or $20/month (Starter plan; 1 calendar) | **No free-forever plan**: Offers a **7-day free trial** with access to core booking features; after trial, requires upgrading to a paid plan ($16+/mo) | Advanced client intake forms, subscription/package booking, automated reminders, and payment gateway support |
+| **[Calendly](https://calendly.com/)** | **$3B Valuation** / ~$140M–$270M ARR | **$10/user/month** (billed annually) or $12/user/month (Standard plan) | **Free forever plan**: Limited strictly to 1 active event type, 1 calendar connection, 1-on-1 meetings only; Calendly branding mandatory; no payment integration | Market leader in self-service 1-on-1 link scheduling, automated routing, and team availability coordination |
+| **[YouCanBookMe](https://youcanbook.me/)** | **~$20M–$40M Valuation** (Est.) / ~$5M ARR | **$8.10/month** (billed annually) or $9/month (Individual plan) | **Free forever plan**: Limited to 1 linked calendar, 1 booking page, and maximum 7 booking form questions; forces "Powered by YouCanBookMe" badge | Streamlined calendar booking with flexible scheduling rules, configurable notifications, and team grids |
+| **[SimplyBook.me](https://simplybook.me/)** | **~$12M–$35M Valuation** (Est.) / ~$3M–$5M ARR | **$11.90/month** (billed annually) or $13.90/month (Basic plan; 100 bookings, 3 custom features) | **Free forever plan**: Capped strictly at 50 bookings per month, 1 service provider/staff member, 1 custom feature plugin, and 1 mini website/widget | Modular plugin architecture, client directory, multi-location support, and extensive marketplace add-ons |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Online Appointment Scheduling tools. The open-source ecosystem spans **mature GPL platforms with CMS integrations**, **modern TypeScript/Elixir booking systems**, **multi-provider company schedulers**, and **Doodle-style polling tools**.
+Self-hosted, community-driven appointment scheduling software and calendar coordination tools. Sorted in descending order by GitHub Star count.
 
-### Easy!Appointments
-**Stack:** PHP / MySQL | **License:** GPL-3.0
-Easy!Appointments is the most established open-source appointment scheduler, in active development since 2014 with **220,000+ release downloads** and a **96% average satisfaction rating on Capterra** . Key features include:
-- **Public booking page** where customers self-serve without creating accounts, plus an admin backend for managing providers, services, working hours, and appointments 
-- **REST API and webhooks** for every booking, change, and cancellation, with SDKs for JavaScript, Python, PHP, and Ruby 
-- **LDAP integration** so providers log in with existing credentials 
-- **40+ languages** for the booking page and back office 
-- **CMS integrations** for WordPress, Joomla, and Drupal, plus Docker deployment 
-- **Google Calendar sync** and AI-agent accessibility through the same open API 
+### 1. [Cal.com](https://github.com/calcom/cal.com) [![GitHub stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers)
+* **Stack:** TypeScript / Next.js / PostgreSQL / Prisma / Tailwind CSS | **License:** AGPLv3 (Open-core)
+* **Overview:** Cal.com is the leading open-source scheduling infrastructure and primary open alternative to Calendly. It provides complete booking management, team scheduling (round-robin and collective), customizable booking questions, custom availability schedules, and extensive app integrations (Google Calendar, Outlook, Zoom, Stripe, CalDAV).
+* **Self-Hosting:** Official Docker Compose configurations with PostgreSQL and Traefik support; also available as an embeddable React/Web Component library.
+* **Best For:** Teams and developers seeking a modern, enterprise-ready scheduling engine with workflow automation and full data control.
 
-It is trusted by organizations including **Doctors Without Borders** and Germany's development ministry . **Trade-off:** It uses a PHP/MySQL stack with a web-based installation wizard rather than environment variables for initial setup .
-**Best for:** Small to mid-sized businesses (clinics, salons, tutors, consultants) wanting a proven, feature-complete booking system with CMS integrations and no per-seat fees, accepting the PHP/MySQL deployment.
+### 2. [Rallly](https://github.com/lukevella/rallly) [![GitHub stars](https://img.shields.io/github/stars/lukevella/rallly?style=social&color=white)](https://github.com/lukevella/rallly/stargazers)
+* **Stack:** TypeScript / Next.js / tRPC / Prisma / PostgreSQL | **License:** AGPL-3.0
+* **Overview:** Rallly is a privacy-first, open-source meeting poll and group scheduling platform built as a direct alternative to Doodle. Rather than 1-on-1 self-booking links, it empowers teams and groups to vote on mutually compatible dates and time slots without forcing respondents to create accounts.
+* **Self-Hosting:** Deploys via Docker and Docker Compose; supports custom branding, SSO authentication (OIDC, Microsoft Entra, Google), and exportable ICS calendar invites.
+* **Best For:** Finding common meeting times across distributed groups, board members, and external stakeholders without sign-up friction.
 
-### Cal.com
-**Stack:** TypeScript / Next.js / PostgreSQL / Prisma | **License:** AGPLv3 (open-core)
-Cal.com is the most widely adopted open-source Calendly alternative, with a codebase that is open-source and self-hostable . It provides booking pages, team scheduling, calendar sync, video conferencing integration, and workflows. Deployment via Docker Compose with PostgreSQL and Traefik is documented, though the team notes Docker installations are supported by the user, not officially by Cal.com . **Important:** SMTP must be configured for booking confirmations, password resets, and team invitations to work; the app runs without email but those features are disabled . A managed cloud offering is also available.
-**Best for:** Teams wanting a mature, feature-rich Calendly replacement with strong community adoption and the option to self-host or use the managed cloud.
+### 3. [Easy!Appointments](https://github.com/alextselegidis/easyappointments) [![GitHub stars](https://img.shields.io/github/stars/alextselegidis/easyappointments?style=social&color=white)](https://github.com/alextselegidis/easyappointments/stargazers)
+* **Stack:** PHP / MySQL / jQuery / Bootstrap | **License:** GPL-3.0
+* **Overview:** In continuous development since 2014 with over 220,000 release downloads, Easy!Appointments is the benchmark self-hosted appointment scheduler for service businesses. It provides customer self-booking pages, multiple providers and services, custom working plans, Google Calendar two-way synchronization, and LDAP authentication.
+* **Self-Hosting:** Runs on standard LAMP/LEMP stacks, shared web hosts, or official Docker containers; includes CMS plugins for WordPress, Joomla, and Drupal.
+* **Best For:** Small-to-mid medical practices, salons, educational tutors, and non-profits wanting a mature, reliable multi-provider booking platform without recurring seat fees.
 
-### Tymeslot
-**Stack:** Elixir / Phoenix LiveView / PostgreSQL | **License:** Open Source (self-hostable)
-Tymeslot is an open-source, self-hostable alternative to Calendly and Cal.com, built with Elixir and Phoenix LiveView . Key features include:
-- **Four booking themes** with custom colours and white-label options
-- **Two-way calendar sync** with Google, Outlook, iCloud, and any CalDAV server (Nextcloud, Radicale, Zimbra, Baikal), with conflict checks across all calendars
-- **Automatic video rooms** on Google Meet, Teams, Zoom, Jitsi, MiroTalk, kMeet, or Nextcloud Talk
-- **Branded email templates** with `.ics` invites and no-login cancel/reschedule links
-- **Webhooks** (HMAC-signed) for n8n, Zapier, and Make
-- **Stripe Connect** optional paid bookings, fee-free for self-hosters
+### 4. [Someday](https://github.com/rbbydotdev/someday) [![GitHub stars](https://img.shields.io/github/stars/rbbydotdev/someday?style=social&color=white)](https://github.com/rbbydotdev/someday/stargazers)
+* **Stack:** TypeScript / React / Vite / Shadcn UI / Google Apps Script | **License:** MIT
+* **Overview:** Someday is a 100% free-to-host calendar availability picker and minimalist Calendly alternative tailored specifically for Google Workspace and Gmail users. It interfaces directly with Google Apps Script to read and block availability without requiring an external backend or database.
+* **Self-Hosting:** Zero hosting costs; deploys directly via Google Apps Script and static web hosting (Vercel/Netlify/GitHub Pages).
+* **Best For:** Solopreneurs and Google Workspace users seeking an ultra-lightweight, zero-cost booking picker without server maintenance.
 
-Self-hosting requires a single Docker container with PostgreSQL included. The same code powers both the self-hosted and managed cloud versions, with no gated features .
-**Best for:** Teams wanting a modern, full-featured Calendly alternative with strong CalDAV support and a clean self-hosting story.
+### 5. [Thunderbird Appointment](https://github.com/thunderbird/appointment) [![GitHub stars](https://img.shields.io/github/stars/thunderbird/appointment?style=social&color=white)](https://github.com/thunderbird/appointment/stargazers)
+* **Stack:** Python / Vue.js / CalDAV / Matrix | **License:** MPL-2.0
+* **Overview:** Created under the Mozilla/Thunderbird umbrella, Thunderbird Appointment is an open, standards-compliant appointment booking tool focused on privacy, user autonomy, and native CalDAV calendar integration.
+* **Self-Hosting:** Standard containerized deployment with integration into self-hosted CalDAV providers (Nextcloud, Radicale, Baïkal).
+* **Best For:** Privacy-focused individuals and organizations committed to open communication protocols and open-source email/calendar workflows.
 
-### Tidetime
-**Stack:** Next.js 16 / React 19 / TypeScript / PostgreSQL / Drizzle | **License:** Open Source (self-hosted)
-Tidetime is a self-hosted appointment scheduling system for a **single company with multiple services and multiple providers** . Key features include:
-- **Services and providers** with per-service duration, location, intake questions, and optional manual confirmation
-- **Provider assignment** where customers can choose a provider or let the system assign the least-busy available one, with bookings created inside a database transaction to prevent double-booking
-- **Availability management** with per-provider weekly hours and named schedules
-- **Calendar sync** with Google Calendar and Microsoft 365 for busy-time conflict checks, plus automatic Google Meet link generation
-- **Webhooks** (signed, Zapier-compatible) for booking events
-- **Branding and custom domain** with automatic HTTPS certificate renewal
+### 6. [Calrs](https://github.com/olivierlambert/calrs) [![GitHub stars](https://img.shields.io/github/stars/olivierlambert/calrs?style=social&color=white)](https://github.com/olivierlambert/calrs/stargazers)
+* **Stack:** Rust / Axum / PostgreSQL / CalDAV | **License:** AGPL-3.0
+* **Overview:** Calrs is a blazingly fast, lightweight scheduling platform written in Rust. It delivers team scheduling with round-robin or collective meeting coordination, multi-timezone slot calculations, CalDAV integration, and OIDC/Keycloak authentication.
+* **Self-Hosting:** Extremely low memory footprint; single native binary or lean Docker container.
+* **Best For:** High-performance infrastructure environments, privacy advocates, and self-hosters prioritizing system resource efficiency and CalDAV compliance.
 
-Deploys via Docker and Caddy. There is no hosted plan, no per-seat pricing, and no third-party analytics .
-**Best for:** Small companies wanting a self-hosted, multi-provider booking system with strong calendar sync and no SaaS dependency, accepting the Next.js/PostgreSQL deployment.
+### 7. [Tymeslot](https://github.com/Tymeslot/tymeslot) [![GitHub stars](https://img.shields.io/github/stars/Tymeslot/tymeslot?style=social&color=white)](https://github.com/Tymeslot/tymeslot/stargazers)
+* **Stack:** Elixir / Phoenix LiveView / PostgreSQL | **License:** AGPL-3.0
+* **Overview:** Tymeslot is a modern, real-time Calendly alternative built with Elixir and Phoenix LiveView. It supports 2-way sync across Google Calendar, Outlook, iCloud, and any CalDAV instance (Nextcloud, Zimbra, Radicale), automatic meeting room generation (Google Meet, Teams, Zoom, Jitsi, Nextcloud Talk), and Stripe-powered booking payments.
+* **Self-Hosting:** Packaged as an all-in-one Docker image (bundled PostgreSQL option available) for fast, zero-fuss deployments.
+* **Best For:** Users seeking a reactive, real-time booking user experience with comprehensive CalDAV and video conference integration.
 
-### Rallly
-**Stack:** Next.js / Prisma / tRPC / TypeScript / PostgreSQL | **License:** Open Source
-Rallly is an open-source **meeting poll and group scheduling** tool, explicitly positioned as a Doodle alternative . Key features include:
-- **No-account voting** — participants vote on proposed times without signing up 
-- **Multi-language support** (10+ languages) 
-- **Custom branding** via environment variables 
-- **Magic-link authentication** and SSO support (Google, Microsoft Entra ID, OIDC) 
-- **ICS calendar files** emailed with finalized meetings 
-- **Admin control panel** for managing users and settings 
+### 8. [Django-Appointment](https://github.com/adamspd/django-appointment) [![GitHub stars](https://img.shields.io/github/stars/adamspd/django-appointment?style=social&color=white)](https://github.com/adamspd/django-appointment/stargazers)
+* **Stack:** Python / Django / SQLite / PostgreSQL | **License:** MIT
+* **Overview:** A plug-and-play Django application that equips any existing Python/Django web application with complete appointment scheduling capabilities. Supports custom staff schedules, slot duration settings, email alerts, and administrative override dashboards.
+* **Self-Hosting:** Installed via `pip install django-appointment` and added to `INSTALLED_APPS`.
+* **Best For:** Python/Django developers building portals, SaaS apps, or client dashboards who need an embedded booking engine without running a standalone server.
 
-Deployment via Railway or Docker with PostgreSQL and MinIO for object storage. Hardware requirements are modest: 1 vCPU / 2 GB RAM minimum, 2 vCPU / 4 GB recommended . **Important distinction:** Rallly is a polling tool for finding a time that works for a group, not a Calendly-style self-booking page.
-**Best for:** Teams needing Doodle-style group availability polling without accounts, accepting the polling rather than self-booking model.
+### 9. [Calnode](https://github.com/Calnode/calnode) [![GitHub stars](https://img.shields.io/github/stars/Calnode/calnode?style=social&color=white)](https://github.com/Calnode/calnode/stargazers)
+* **Stack:** Go / SQLite / Model Context Protocol (MCP) | **License:** Apache-2.0
+* **Overview:** Calnode is an API-first, single-binary scheduling engine built with Go and SQLite. Uniquely, it features a native Model Context Protocol (MCP) server baked directly into the binary, allowing autonomous AI agents to query availability and book appointments deterministically.
+* **Self-Hosting:** Zero external dependencies; single executable binary with SQLite database storage.
+* **Best For:** AI engineers and automators wanting an ultra-lightweight, scriptable scheduling engine callable by LLM agents.
 
-### Calnode
-**Stack:** Go / SQLite | **License:** Apache-2.0
-Calnode is a lean, self-hostable scheduling engine built as a **single Go binary with SQLite**, positioned as a Calendly/Cal.com alternative . Key features include:
-- **API-first and MCP-native**: a Model Context Protocol server is compiled into the binary, exposing tools like `get_available_slots`, `create_booking`, and `reschedule_booking`
-- **OAuth 2.1 authorization server** for agent connections, plus API keys for scripts
-- **HMAC-signed webhooks** for booking lifecycle events
-- **Conversational booking** on the booking page, with the deterministic engine computing slots (the model never invents times)
-- **Google/Microsoft calendar sync** and meeting link generation
+### 10. [OpenCalendar](https://github.com/kudretyilmazz/opencalendar) [![GitHub stars](https://img.shields.io/github/stars/kudretyilmazz/opencalendar?style=social&color=white)](https://github.com/kudretyilmazz/opencalendar/stargazers)
+* **Stack:** Next.js / TypeScript / PostgreSQL / Docker | **License:** AGPL-3.0
+* **Overview:** A modern open-core alternative to Cal.com and Calendly crafted with strict web accessibility (WCAG 2.2 AA). It includes multi-user team scheduling, routing forms, webhooks, and calendar synchronizations without gated paywalls.
+* **Self-Hosting:** Straightforward Docker configuration requiring only PostgreSQL (no Redis required).
+* **Best For:** Organizations seeking a clean open-source scheduling solution with full accessibility compliance and transparent licensing.
 
-It is positioned for teams wanting a small, fast, scriptable, and AI-ready scheduler .
-**Best for:** Developers and AI-forward teams wanting a lightweight, MCP-native scheduling engine with a single binary and no heavy dependencies.
+### 11. [Tidetime](https://github.com/Sulaiman-Dauda/Tidetime) [![GitHub stars](https://img.shields.io/github/stars/Sulaiman-Dauda/Tidetime?style=social&color=white)](https://github.com/Sulaiman-Dauda/Tidetime/stargazers)
+* **Stack:** Next.js 16 / React 19 / TypeScript / PostgreSQL / Drizzle ORM | **License:** MIT
+* **Overview:** An open-source scheduling system customized for a single company operating with multiple services and staff providers. Features least-busy auto-assignment, transaction-safe booking reservations, Google Calendar/Microsoft 365 sync, and automated Caddy HTTPS domains.
+* **Self-Hosting:** Containerized deployment with Docker and Caddy reverse proxy.
+* **Best For:** Small business service agencies, dental/medical offices, and consulting firms managing internal teams.
 
-### Calrs
-**Stack:** Rust | **License:** Open Source
-Calrs is a fast, self-hostable scheduling platform written in Rust, positioned as a Cal.com alternative . Key features include:
-- **Team scheduling** with round-robin (least-busy assignment) or collective (all members must be free) modes
-- **Unified Teams** created from OIDC groups or hand-picked users, with public or private visibility
-- **Invite links** with tokenized access, expiration, and usage limits for internal or private event types
-- **CalDAV calendar sync** for conflict checks, with multi-timezone team support
-- **Availability overrides** for specific dates or custom hours
-
-It uses local accounts with Argon2 hashing and supports OIDC/SSO via Keycloak or Authentik .
-**Best for:** Teams wanting a Rust-based, performance-focused scheduling platform with strong team and invite-link features, accepting a newer ecosystem.
-
-### justbookmycal
-**Stack:** Python / Flask | **License:** Open Source (PyPI)
-justbookmycal is a lightweight, self-hosted booking page that checks your live calendar via **ICS feeds** . Key characteristics:
-- **ICS feed-based availability**: reads busy times from any published ICS feed, treating `TRANSP:TRANSPARENT` and `CANCELLED` events as free
-- **Cache with fallback**: caches feeds and uses the last copy (up to 24 hours old) if a feed cannot be loaded, rather than risking double booking
-- **Email invitations** with `.ics` attachments, using a system address as organizer
-- **Private links** for each side, derived from `SECRET_KEY`, with only hashes stored in the database
-- **Jitsi video links** by default, with configurable templates
-
-It is designed for a single person's booking page rather than team scheduling .
-**Best for:** Individuals wanting a minimal, self-hosted booking page that works with any ICS feed, accepting a narrower feature set than full platforms.
+### 12. [Just-Book-My-Cal](https://github.com/mxmehl/just-book-my-cal) [![GitHub stars](https://img.shields.io/github/stars/mxmehl/just-book-my-cal?style=social&color=white)](https://github.com/mxmehl/just-book-my-cal/stargazers)
+* **Stack:** Python / Flask / ICS / SQLite | **License:** Apache-2.0
+* **Overview:** A lightweight, self-hosted booking page that reads busy slots directly from any published `.ics` calendar URL. Does not require OAuth app approval or cloud calendar APIs; simply ingest your private calendar feed, compute open slots, and dispatch invitations.
+* **Self-Hosting:** Available on PyPI (`pip install justbookmycal`) and deployed with Gunicorn or systemd.
+* **Best For:** Individuals looking for a private, zero-bloat personal booking link powered entirely by standard iCalendar feeds.
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Feature Comparison Matrix
 
-| Software | License | Stack | Multi-Provider | Calendar Sync | Self-Hosted | Best For |
-|----------|---------|-------|----------------|---------------|-------------|----------|
-| **Calendly** | Proprietary | Cloud | ✅ | ✅ | ❌ | Standard booking pages |
-| **Acuity** | Proprietary | Cloud | ✅ | ✅ | ❌ | Service business + payments |
-| **Easy!Appointments** | GPL-3.0 | PHP/MySQL | ✅ | ✅ Google | ✅ | Proven CMS-integrated scheduler |
-| **Cal.com** | AGPLv3 | Next.js/Postgres | ✅ | ✅ | ✅ | Mature Calendly alternative |
-| **Tymeslot** | Open Source | Elixir/Phoenix | (Check) | ✅ Any CalDAV | ✅ | Full-featured + CalDAV |
-| **Tidetime** | Open Source | Next.js/Postgres | ✅ | ✅ Google/M365 | ✅ | Multi-provider company |
-| **Rallly** | Open Source | Next.js/Prisma | (Polling) | (ICS final) | ✅ | Doodle-style group polls |
-| **Calnode** | Apache-2.0 | Go/SQLite | (Check) | ✅ Google/M365 | ✅ | AI-agent bookable |
-| **Calrs** | Open Source | Rust | ✅ Team modes | ✅ CalDAV | ✅ | Rust team scheduling |
-| **justbookmycal** | Open Source | Python/Flask | ❌ (Single) | ✅ ICS feeds | ✅ | Minimal ICS-based page |
+| Software | License | Primary Stack | Multi-Provider | CalDAV / ICS | Two-Way Sync | Best Deployment Model |
+|:---|:---|:---|:---:|:---:|:---:|:---|
+| **Cal.com** | AGPLv3 (Open-core) | Next.js / PostgreSQL | ✅ | ✅ | ✅ | Docker / Cloud |
+| **Rallly** | AGPL-3.0 | Next.js / PostgreSQL | (Polling) | ✅ (Export) | ❌ | Docker / Railway |
+| **Easy!Appointments** | GPL-3.0 | PHP / MySQL | ✅ | ❌ | ✅ Google | LAMP / Docker / WP |
+| **Someday** | MIT | React / Google Apps Script | ❌ | ❌ | ✅ Google | Serverless / Static Host |
+| **Thunderbird Appointment** | MPL-2.0 | Python / Vue.js | ✅ | ✅ | ✅ | Docker / CalDAV Server |
+| **Calrs** | AGPL-3.0 | Rust / PostgreSQL | ✅ | ✅ | ✅ | Single Binary / Docker |
+| **Tymeslot** | AGPL-3.0 | Elixir / Phoenix | ✅ | ✅ | ✅ | Docker / Cloud |
+| **Django-Appointment** | MIT | Python / Django | ✅ | ❌ | ❌ | Django App Package |
+| **Calnode** | Apache-2.0 | Go / SQLite | (API/MCP) | ❌ | ✅ Google/M365 | Single Binary |
+| **OpenCalendar** | AGPL-3.0 | Next.js / PostgreSQL | ✅ | ❌ | ✅ | Docker |
+| **Tidetime** | MIT | Next.js / PostgreSQL | ✅ | ❌ | ✅ Google/M365 | Docker + Caddy |
+| **Just-Book-My-Cal** | Apache-2.0 | Python / Flask | ❌ (Single) | ✅ (Feed) | ❌ (Feed read) | Python / PyPI / Gunicorn |
+
+---
+
+## 🎯 Selection Guide
+
+- **If you need an all-in-one Calendly replacement with enterprise workflows:** Choose **[Cal.com](https://github.com/calcom/cal.com)**.
+- **If you run a local service business, clinic, or multi-provider salon:** Choose **[Easy!Appointments](https://github.com/alextselegidis/easyappointments)** or **[Square Appointments](https://squareup.com/appointments)**.
+- **If you need Doodle-style group date & time polling:** Choose **[Rallly](https://github.com/lukevella/rallly)**.
+- **If you use Nextcloud or self-hosted CalDAV infrastructure:** Choose **[Tymeslot](https://github.com/Tymeslot/tymeslot)**, **[Thunderbird Appointment](https://github.com/thunderbird/appointment)**, or **[Calrs](https://github.com/olivierlambert/calrs)**.
+- **If you want zero-cost personal booking for Google Workspace:** Choose **[Someday](https://github.com/rbbydotdev/someday)**.
+- **If you need AI agents to book calendar slots natively:** Choose **[Calnode](https://github.com/Calnode/calnode)** (MCP-native).
+- **If you are building inside an existing Django project:** Choose **[Django-Appointment](https://github.com/adamspd/django-appointment)**.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Online Appointment Scheduling tool that should be listed here, please open a pull request with:
+Contributions are welcome! If you know of an open-source Online Appointment Scheduling tool or active Calendly/Doodle alternative that should be listed here:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The appointment scheduling space splits between **full booking platforms** (Easy!Appointments for maturity and CMS integrations, Cal.com for the largest community, Tymeslot for feature depth with CalDAV, Tidetime for multi-provider companies, Calrs for Rust-based team scheduling) and **group polling tools** (Rallly for Doodle-style availability finding). **Easy!Appointments** is the most proven open-source scheduler, with 12 years of development, 220k+ downloads, and use by Doctors Without Borders . **Cal.com** remains the most widely adopted Calendly alternative with the largest community . For teams wanting AI-agent accessibility, **Calnode** uniquely compiles an MCP server into its binary, allowing agents to book meetings directly . **Rallly** fills the distinct need for group availability polling rather than self-booking. No open-source project fully replicates Calendly's ecosystem polish, but these tools cover the core booking workflow comprehensively for self-hosted deployments.
+1. Fork this repository.
+2. Ensure the project is actively maintained (commits or releases within the last 12 months) and open source.
+3. Submit a pull request with the project name, GitHub repo URL, star count badge, tech stack, license, and brief description.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This compilation is licensed under [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/). Project logos, software titles, and trademarks are the property of their respective owners.
